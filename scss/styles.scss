@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: rgb(126, 15, 15);//#3498db;
+$base-color: #1f1a2b;//#3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -237,6 +237,7 @@ header {
 
 footer {
     padding: 50px 0;
+    background-color: black;
 }
 
 .copyright {
