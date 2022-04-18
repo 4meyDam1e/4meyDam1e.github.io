@@ -138,19 +138,19 @@ header li {
 
 header a {
   display: block;
-  color: #7e0f0f;
+  color: #1f1a2b;
   padding: 10px;
 }
 
 header a:hover {
-  color: #500a0a;
+  color: #08070b;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
 }
 
 header a:focus {
-  color: #7e0f0f;
+  color: #1f1a2b;
   text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #7e0f0f;
+  color: #1f1a2b;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -190,7 +190,7 @@ header.sticky {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #7e0f0f;
+  color: #1f1a2b;
 }
 
 #mobile-menu-close span {
@@ -204,6 +204,7 @@ header.sticky {
 
 footer {
   padding: 50px 0;
+  background-color: black;
 }
 
 .copyright {
@@ -256,7 +257,7 @@ footer {
 }
 
 .social a:hover {
-  color: #7e0f0f;
+  color: #1f1a2b;
 }
 
 .btn-rounded-white {
@@ -270,7 +271,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-  color: #7e0f0f;
+  color: #1f1a2b;
   background: #fff;
   text-decoration: none;
 }
@@ -302,7 +303,7 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #7e0f0f;
+  background: #1f1a2b;
 }
 
 .background-alt {
@@ -349,7 +350,7 @@ footer {
 }
 
 #lead-content h2 {
-  color: #e52727;
+  color: #584a7a;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
@@ -363,7 +364,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(80, 10, 10, 0.8);
+  background: rgba(8, 7, 11, 0.8);
   z-index: 1;
 }
 
@@ -385,7 +386,7 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #e52727;
+  border: 3px solid #584a7a;
   text-align: center;
 }
 
@@ -476,7 +477,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #7e0f0f;
+  background: #1f1a2b;
   z-index: 0;
 }
 
@@ -485,9 +486,9 @@ footer {
   content: '';
   width: 3px;
   height: 40px;
-  background: #7e0f0f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7e0f0f), to(rgba(126, 15, 15, 0)));
-  background: linear-gradient(to bottom, #7e0f0f, rgba(126, 15, 15, 0));
+  background: #1f1a2b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f1a2b), to(rgba(31, 26, 43, 0)));
+  background: linear-gradient(to bottom, #1f1a2b, rgba(31, 26, 43, 0));
   top: 100%;
   left: 303px;
 }
@@ -534,7 +535,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #7e0f0f;
+  background: #1f1a2b;
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -713,7 +714,7 @@ footer {
 */
 #contact {
   padding: 50px 15px;
-  background: #7e0f0f;
+  background: #1f1a2b;
   text-align: center;
 }
 
@@ -735,7 +736,7 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #3a0707;
+  background: black;
   color: #fff;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
@@ -761,7 +762,7 @@ footer {
 
 #contact-form input:focus, #contact-form textarea:focus {
   outline: none;
-  background: #0c0101;
+  background: black;
 }
 
 #contact-form textarea {
@@ -776,7 +777,7 @@ footer {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #7e0f0f;
+  color: #1f1a2b;
   font-weight: 700;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
