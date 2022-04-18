@@ -33,6 +33,11 @@
     ------------------------
 */
 
+//Define custom colors
+$yellow: #f0b922;
+$light-purple: #2b243b;
+$dark-purple: #1f1a2b;
+
 // Define base and accent colors
 $base-color: #1f1a2b;//#3498db;
 $base-color-hover: darken($base-color, 10%);
@@ -490,7 +495,7 @@ footer {
         right: auto;
         height: 100%;
         width: 3px;
-        background: $base-color;
+        background: $yellow;
         z-index: 0;
     }
 
@@ -499,8 +504,8 @@ footer {
         content: '';
         width: 3px;
         height: 40px;
-        background: $base-color;
-        background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
+        background: $yellow;
+        background: linear-gradient(to bottom, $yellow, rgba($yellow, 0));
         top: 100%;
         left: 303px;
     }
@@ -508,7 +513,7 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
+    background: $light-purple;//#fff;
     border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
@@ -517,15 +522,15 @@ footer {
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: $heading;
+        color: white;
         display: inline-block;
         margin: 0;
     }
 
     h4 {
         font-size: 1.2em;
-        font-weight: 300;
-        color: #7e8890;
+        font-weight: 550;
+        color: $text;//#7e8890;
         margin: 0 0 15px 0;
     }
 
@@ -545,10 +550,10 @@ footer {
 
 .vtimeline-icon {
     position: relative;
-    color: #fff;
+    color: $light-purple;
     width: 50px;
     height: 50px;
-    background: $base-color;
+    background: $yellow;
     border-radius: 50%;
     float: left;
     z-index: 99;

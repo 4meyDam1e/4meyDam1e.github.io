@@ -477,7 +477,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #1f1a2b;
+  background: #f0b922;
   z-index: 0;
 }
 
@@ -486,16 +486,16 @@ footer {
   content: '';
   width: 3px;
   height: 40px;
-  background: #1f1a2b;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1f1a2b), to(rgba(31, 26, 43, 0)));
-  background: linear-gradient(to bottom, #1f1a2b, rgba(31, 26, 43, 0));
+  background: #f0b922;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0b922), to(rgba(240, 185, 34, 0)));
+  background: linear-gradient(to bottom, #f0b922, rgba(240, 185, 34, 0));
   top: 100%;
   left: 303px;
 }
 
 .vtimeline-content {
   margin-left: 350px;
-  background: #fff;
+  background: #2b243b;
   border: 1px solid #e6e6e6;
   padding: 15px;
   border-radius: 3px;
@@ -505,15 +505,15 @@ footer {
 .vtimeline-content h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: white;
   display: inline-block;
   margin: 0;
 }
 
 .vtimeline-content h4 {
   font-size: 1.2em;
-  font-weight: 300;
-  color: #7e8890;
+  font-weight: 550;
+  color: #74808a;
   margin: 0 0 15px 0;
 }
 
@@ -532,10 +532,10 @@ footer {
 
 .vtimeline-icon {
   position: relative;
-  color: #fff;
+  color: #2b243b;
   width: 50px;
   height: 50px;
-  background: #1f1a2b;
+  background: #f0b922;
   border-radius: 50%;
   float: left;
   z-index: 99;
