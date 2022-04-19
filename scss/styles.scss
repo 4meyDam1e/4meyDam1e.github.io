@@ -43,14 +43,14 @@ $base-color: #1f1a2b;//#3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #f2f2f5;//#fff;
+//$background-alt: #f2f2f5;
 
 // Define border colors
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
+$heading: #fff;//#374054;
 $text: #74808a;
 
 /*
@@ -159,7 +159,7 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
+        background: $light-purple;//$background;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -173,18 +173,18 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: #fff;
         padding: 10px;
 
         &:hover {
-            color: $base-color-hover;
+            color: $light-purple;
             text-decoration: none;
-            background: #eee;
+            background: $yellow;//#eee;
             border-radius: 4px;
         }
 
         &:focus {
-            color: $base-color;
+            color: $yellow;
             text-decoration: none;
         }
     }
@@ -242,7 +242,7 @@ header {
 
 footer {
     padding: 50px 0;
-    background-color: black;
+    background-color: $dark-purple;
 }
 
 .copyright {
@@ -271,6 +271,10 @@ footer {
     i {
         color: $text;
     }
+
+    .fa-chevron-up:hover {
+        color: $yellow;
+    }
 }
 
 .social {
@@ -293,7 +297,7 @@ footer {
         padding: 10px;
 
         &:hover {
-            color: $base-color;
+            color: $yellow;
         }
     }
 }
@@ -342,7 +346,7 @@ footer {
 }
 
 .background-alt {
-    background: $background-alt;
+    background: $dark-purple;
 }
 
 /*
@@ -453,14 +457,15 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid $border;
+    //border-bottom: 1px solid $border;
+    background-color: $background;
 
     h2 {
-        color: $heading;
+        color: $dark-purple;
     }
 
     p {
-        color: $text;
+        color: $light-purple;
         margin: 0;
     }
 }
@@ -477,7 +482,7 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
-        color: $heading;
+        color: #fff;
     }
 }
 
@@ -514,7 +519,7 @@ footer {
 .vtimeline-content {
     margin-left: 350px;
     background: $light-purple;//#fff;
-    border: 1px solid #e6e6e6;
+    //border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -522,7 +527,7 @@ footer {
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: white;
+        color: #fff;
         display: inline-block;
         margin: 0;
     }
@@ -573,7 +578,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: $yellow;
 }
 
 /*
@@ -584,11 +589,11 @@ footer {
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid $border;
+    //border-bottom: 1px solid $border;
     text-align: center;
 
     h2 {
-        color: $heading;
+        color: $dark-purple;
         margin-bottom: 50px;
     }
 }
@@ -597,25 +602,27 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid $border;
+    //border: 1px solid $border;
+    border-radius: 5px;
+    background-color: $light-purple;
     text-align: left;
 
     h3 {
-        font-weight: 500;
+        font-weight: 300;
         float: left;
         margin: 0;
         color: $heading;
     }
 
     span {
-        color: $text;
+        color: $heading;
         float: right;
     }
 
     h4 {
         color: $text;
         clear: both;
-        font-weight: 500;
+        font-weight: 700;
         margin: 0 0 15px 0;
     }
 
@@ -627,6 +634,10 @@ footer {
 
     ul {
         padding: 0 0 0 15px;
+    }
+
+    a {
+        color: $yellow;
     }
 }
 
@@ -652,7 +663,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: $light-purple;
     border-radius: 4px;
 }
 
@@ -678,6 +689,10 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    a {
+        color: $yellow;
     }
 }
 
@@ -705,7 +720,7 @@ footer {
     text-align: center;
 
     h2 {
-        color: $heading;
+        color: $dark-purple;
         margin-bottom: 50px;
     }
 
@@ -720,8 +735,8 @@ footer {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
-        color: $heading;
-        background: darken($background-alt, 5%);
+        color: lighten($color: $yellow, $amount: 15);
+        background: $light-purple;
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -982,6 +997,10 @@ footer {
 
     .social {
         text-align: center;
+
+        a {
+            color: $yellow;
+        }
     }
 
 }
