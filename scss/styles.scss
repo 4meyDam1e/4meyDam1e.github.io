@@ -173,7 +173,7 @@ header {
 
     a {
         display: block;
-        color: #fff;
+        color: $heading;
         padding: 10px;
 
         &:hover {
@@ -200,6 +200,11 @@ header {
 }
 
 #menu {
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
     &.active {
         display: block;
     }
@@ -304,15 +309,15 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: $heading;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid $heading;
     border-radius: 30px;
     @include transition();
 
     &:hover {
         color: $base-color;
-        background: #fff;
+        background: $heading;
         text-decoration: none;
     }
 }
@@ -341,12 +346,18 @@ footer {
         left: 0;
         right: 0;
         margin: 0 auto;
-        background: $base-color;
+        background: $dark-purple;
     }
 }
 
 .background-alt {
     background: $dark-purple;
+
+    .heading {
+        &::after {
+            background: $heading;
+        }
+    }
 }
 
 /*
@@ -368,7 +379,7 @@ footer {
 
 #lead-content {
     position: absolute;
-    z-index: 10;
+    z-index: 5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -379,7 +390,7 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: $heading;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -413,9 +424,9 @@ footer {
     right: 0;
     width: 100%;
     text-align: center;
-    z-index: 10;
+    z-index: 5;
     bottom: 15px;
-    color: #fff;
+    color: $heading;
 
     span {
         cursor: pointer;
@@ -482,7 +493,7 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
-        color: #fff;
+        color: $heading;
     }
 }
 
@@ -527,7 +538,7 @@ footer {
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: #fff;
+        color: $heading;
         display: inline-block;
         margin: 0;
     }
@@ -756,7 +767,7 @@ footer {
 
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: $heading;
         font-weight: 500;
     }
 }
@@ -773,10 +784,10 @@ footer {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: $heading;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: $heading;
         }
 
         &:focus {
@@ -793,7 +804,7 @@ footer {
     button {
         display: block;
         width: 100%;
-        background: #fff;
+        background: $heading;
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
@@ -829,7 +840,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background: $heading;
     text-align: left;
 
     h3 {

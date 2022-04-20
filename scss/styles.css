@@ -163,6 +163,14 @@ header.sticky {
   z-index: 999;
 }
 
+#menu {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 #menu.active {
   display: block;
 }
@@ -314,6 +322,10 @@ footer {
   background: #1f1a2b;
 }
 
+.background-alt .heading::after {
+  background: #fff;
+}
+
 /*
     --------------------------
     ----- 4. Lead Styles -----
@@ -332,7 +344,7 @@ footer {
 
 #lead-content {
   position: absolute;
-  z-index: 10;
+  z-index: 5;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -378,7 +390,7 @@ footer {
   right: 0;
   width: 100%;
   text-align: center;
-  z-index: 10;
+  z-index: 5;
   bottom: 15px;
   color: #fff;
 }
