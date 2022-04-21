@@ -728,11 +728,20 @@ footer {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #f5d06a;
-  background: #2b243b;
+  color: #1f1a2b;
+  background: #e3e5e7;
   list-style: none;
   cursor: default;
-  font-size: 1.2em;
+  font-size: 1em;
+  /*i {
+            display: inline-block;
+            font-size: 4rem;
+        }*/
+}
+
+#skills li img {
+  display: inline-block;
+  height: 3rem;
 }
 
 /*

@@ -751,11 +751,22 @@ footer {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
-        color: lighten($color: $yellow, $amount: 15);
-        background: $light-purple;
+        color: $dark-purple;
+        background: lighten($text, 40);
         list-style: none;
         cursor: default;
-        font-size: 1.2em;
+        font-size: 1em;
+
+        /*i {
+            display: inline-block;
+            font-size: 4rem;
+        }*/
+
+        img {
+            display: inline-block;
+            height: 3rem;
+        }
+
     }
 }
 
